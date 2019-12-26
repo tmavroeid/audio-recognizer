@@ -1,0 +1,23 @@
+{
+  "name": "audio-tagging",
+  "bin": "./index.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinner": "^0.2.10",
+    "loading-spinner": "^1.2.1",
+    "music-metadata": "^5.4.0",
+    "node-lame": "^1.2.0",
+    "request": "^2.88.0",
+    "sox": "^0.1.0",
+    "sox-audio": "^0.3.0",
+    "sox-stream": "^2.0.3",
+    "valid-url": "^1.0.9"
+  }
+}
