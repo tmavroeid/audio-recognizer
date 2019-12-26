@@ -1,4 +1,4 @@
-# Audio Meatadata Extractor
+# Audio Metadata Extractor
 
 
 
@@ -10,7 +10,7 @@
 - [Technologies](#technologies)
 
 ## Introduction
-This is a script that offers the functionality of extracting metadata (tags) from audio files. The audio files can be provided in the form of  *URL*. The script, checks that is given a *valid* and *live URL*, then downloads the audio file and creates dynamically a local file upon which the analysis will be performed. Currently, both *sox* and *music-metadata* are used for the same purpose which is the extraction of metadata. 
+This is a script that offers the functionality of extracting metadata (tags) from audio files. The audio files can be provided in the form of  *URL*. The script, checks that is given a *valid* and *live URL*, then downloads the audio file and creates dynamically a local file upon which the analysis will be performed. Currently, both *sox* and *music-metadata* are used for the same purpose which is the extraction of metadata.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ npm install
 
 ## Usage
 
-Invoke the following command in order to extract meatadata:
+Invoke the following command in order to extract metadata:
 ```
 ./index.js "https://cdn.avlos.io/aulos/moviequotes/pirates_of_the_carribean/rumalwaysgone.wav"
 ```
